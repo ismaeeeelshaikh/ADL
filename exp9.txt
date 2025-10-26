@@ -250,3 +250,5 @@ Bash
 
 sudo systemctl restart nagios
 Go back to your Nagios web interface. After a few minutes, you should see your new remote host ("My First Remote Server") appear on the dashboard!
+
+http://27.0.0.1/nagios/
