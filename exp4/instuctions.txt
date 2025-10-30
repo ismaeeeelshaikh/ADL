@@ -64,7 +64,7 @@ Rule 1 (For SSH):
 Type: SSH
 
 
-Source type: My IP (This is more secure than 0.0.0.0/0 ).
+Source type: anywhere .
 
 Rule 2 (For Cluster Communication):
 
@@ -98,7 +98,7 @@ Select the second instance and rename it to slave.
 
 Open two terminal windows on your computer (one for the master, one for the slave).
 
-In Terminal 1 (Master):
+for Terminal 1 (Master):
 
 Select the master instance in the AWS console and click Connect.
 
@@ -114,7 +114,7 @@ Select the slave instance in the AWS console and click Connect.
 
 run this
 
-export PS1='ubuntu@master:~$'
+export PS1='ubuntu@slave:~$'
 
 Paste it into your second terminal and press Enter.
 
